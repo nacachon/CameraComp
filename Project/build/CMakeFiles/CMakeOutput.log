@@ -1,0 +1,131 @@
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec3338492932
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec3338492932, 構成: Debug x64 ------
+1>2013/12/19 19:37:51 にビルドを開始しました。
+1>PrepareForBuild:
+1>  ディレクトリ "C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\" を作成しています。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec3338492932.dir\Debug\cmTryCompileExec3338492932.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3338492932.dir\Debug\\" /Fd"C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3338492932.pdb" /Gd /TC /errorReport:prompt C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\testCCompiler.c  /Zm1000 
+1>  
+1>  testCCompiler.c
+1>Link:
+1>  cmTryCompileExec3338492932.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3338492932.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec3338492932.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3338492932.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec3338492932.dir\Debug\cmTryCompileExec3338492932.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec3338492932.dir\Debug\cmTryCompileExec3338492932.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.21
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec880553964
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec880553964, 構成: Debug x64 ------
+1>2013/12/19 19:37:54 にビルドを開始しました。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec880553964.dir\Debug\cmTryCompileExec880553964.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec880553964.dir\Debug\\" /Fd"C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec880553964.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+1>  
+1>  CMakeCCompilerABI.c
+1>Link:
+1>  cmTryCompileExec880553964.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec880553964.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec880553964.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec880553964.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec880553964.dir\Debug\cmTryCompileExec880553964.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec880553964.dir\Debug\cmTryCompileExec880553964.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.26
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec1706915864
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec1706915864, 構成: Debug x64 ------
+1>2013/12/19 19:37:58 にビルドを開始しました。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec1706915864.dir\Debug\cmTryCompileExec1706915864.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1706915864.dir\Debug\\" /Fd"C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1706915864.pdb" /Gd /TP /errorReport:prompt C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx  /Zm1000 
+1>  
+1>  testCXXCompiler.cxx
+1>Link:
+1>  cmTryCompileExec1706915864.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1706915864.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec1706915864.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1706915864.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec1706915864.dir\Debug\cmTryCompileExec1706915864.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec1706915864.dir\Debug\cmTryCompileExec1706915864.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.15
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2057330661
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec2057330661, 構成: Debug x64 ------
+1>2013/12/19 19:38:00 にビルドを開始しました。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec2057330661.dir\Debug\cmTryCompileExec2057330661.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2057330661.dir\Debug\\" /Fd"C:/Users/daiki/workspace/CameraComp/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2057330661.pdb" /Gd /TP /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>Link:
+1>  cmTryCompileExec2057330661.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2057330661.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec2057330661.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2057330661.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec2057330661.dir\Debug\cmTryCompileExec2057330661.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec2057330661.dir\Debug\cmTryCompileExec2057330661.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.34
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+

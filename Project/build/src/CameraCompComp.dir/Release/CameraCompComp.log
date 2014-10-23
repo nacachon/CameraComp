@@ -1,0 +1,124 @@
+﻿2013/12/29 20:47:02 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\daiki\workspace\CameraComp\build\src\CameraCompComp.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "CameraCompComp.dir\Release\CameraCompComp.unsuccessfulbuild" を作成しています。
+       CustomBuild:
+         すべての出力が最新のものです。
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /IC:/opencv/build/include /IC:/opencv/build/include/opencv /IC:/Users/daiki/workspace/CameraComp/include /IC:/Users/daiki/workspace/CameraComp/include/CameraComp /IC:/Users/daiki/workspace/CameraComp/build /IC:/Users/daiki/workspace/CameraComp/build/idl /I"C:/Program Files/OpenRTM-aist/1.1" /I"C:/Program Files/OpenRTM-aist/1.1/rtm/idl" /I"C:/Program Files/OpenRTM-aist/1.1/omniORB/4.1.6/include" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D __WIN32__ /D __x86__ /D __NT__ /D __OSVERSION__=4 /D _CRT_SECURE_NO_DEPRECATE /D INCLUDE_stub_in_nt_dll /D RTC_CORBA_CXXMAPPING11 /D _WIN32_WINNT=0x0500 /D __WIN32__ /D __x86__ /D __NT__ /D __OSVERSION__=4 /D _CRT_SECURE_NO_DEPRECATE /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"CameraCompComp.dir\Release\\" /Fd"C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraCompComp.pdb" /Gd /TP /errorReport:prompt C:\Users\daiki\workspace\CameraComp\src\CameraComp.cpp  /Zm1000 
+         CameraComp.cpp
+     1>C:/Program Files/OpenRTM-aist/1.1\rtm/InPortBase.h(599): warning C4290: C++ の例外の指定は無視されます。関数が __declspec(nothrow) でないことのみ表示されます。
+     1>C:/Program Files/OpenRTM-aist/1.1\rtm/InPortConsumer.h(258): warning C4231: 非標準の拡張機能が使用されています : 'extern' がテンプレートの明示的なインスタンス生成の前に見つかりました。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Factory.h(424): warning C4251: 'coil::Factory<AbstractClass,Identifier,Compare,Creator,Destructor>::m_creators' : class 'std::map<_Kty,_Ty>' は __export キーワードを使って class 'coil::Factory<AbstractClass,Identifier,Compare,Creator,Destructor>' にエクスポートしてください。
+                 with
+                 [
+                     AbstractClass=RTC::InPortConsumer,
+                     Identifier=std::string,
+                     Compare=std::less<std::string>,
+                     Creator=RTC::InPortConsumer *(__cdecl *)(void),
+                     Destructor=void (__cdecl *)(RTC::InPortConsumer *&)
+                 ]
+                 and
+                 [
+                     _Kty=std::string,
+                     _Ty=coil::Factory<RTC::InPortConsumer,std::string,std::less<std::string>,RTC::InPortConsumer *(__cdecl *)(void),void (__cdecl *)(RTC::InPortConsumer *&)>::FactoryEntry
+                 ]
+                 and
+                 [
+                     AbstractClass=RTC::InPortConsumer,
+                     Identifier=std::string,
+                     Compare=std::less<std::string>,
+                     Creator=RTC::InPortConsumer *(__cdecl *)(void),
+                     Destructor=void (__cdecl *)(RTC::InPortConsumer *&)
+                 ]
+                 C:/Program Files/OpenRTM-aist/1.1\rtm/InPortConsumer.h(258) : コンパイルされたクラスの テンプレート のインスタンス化 'coil::GlobalFactory<AbstractClass>' の参照を確認してください
+                 with
+                 [
+                     AbstractClass=RTC::InPortConsumer
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\rtm/OutPortProvider.h(551): warning C4231: 非標準の拡張機能が使用されています : 'extern' がテンプレートの明示的なインスタンス生成の前に見つかりました。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Factory.h(424): warning C4251: 'coil::Factory<AbstractClass,Identifier,Compare,Creator,Destructor>::m_creators' : class 'std::map<_Kty,_Ty>' は __export キーワードを使って class 'coil::Factory<AbstractClass,Identifier,Compare,Creator,Destructor>' にエクスポートしてください。
+                 with
+                 [
+                     AbstractClass=RTC::OutPortProvider,
+                     Identifier=std::string,
+                     Compare=std::less<std::string>,
+                     Creator=RTC::OutPortProvider *(__cdecl *)(void),
+                     Destructor=void (__cdecl *)(RTC::OutPortProvider *&)
+                 ]
+                 and
+                 [
+                     _Kty=std::string,
+                     _Ty=coil::Factory<RTC::OutPortProvider,std::string,std::less<std::string>,RTC::OutPortProvider *(__cdecl *)(void),void (__cdecl *)(RTC::OutPortProvider *&)>::FactoryEntry
+                 ]
+                 and
+                 [
+                     AbstractClass=RTC::OutPortProvider,
+                     Identifier=std::string,
+                     Compare=std::less<std::string>,
+                     Creator=RTC::OutPortProvider *(__cdecl *)(void),
+                     Destructor=void (__cdecl *)(RTC::OutPortProvider *&)
+                 ]
+                 C:/Program Files/OpenRTM-aist/1.1\rtm/OutPortProvider.h(551) : コンパイルされたクラスの テンプレート のインスタンス化 'coil::GlobalFactory<AbstractClass>' の参照を確認してください
+                 with
+                 [
+                     AbstractClass=RTC::OutPortProvider
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\rtm/OutPortBase.h(777): warning C4290: C++ の例外の指定は無視されます。関数が __declspec(nothrow) でないことのみ表示されます。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(229): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+                 C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(227): クラス テンプレート のメンバー関数 'std::streamsize coil::log_streambuf<_CharT>::xsputn(const char *,std::streamsize)' のコンパイル中
+                 with
+                 [
+                     _CharT=char
+                 ]
+                 C:/Program Files/OpenRTM-aist/1.1\rtm/Manager.h(1645) : コンパイルされたクラスの テンプレート のインスタンス化 'coil::log_streambuf<_CharT>' の参照を確認してください
+                 with
+                 [
+                     _CharT=char
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(255): warning C4244: '=' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+                 C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(253): クラス テンプレート のメンバー関数 'std::streamsize coil::log_streambuf<_CharT>::stream_sputn(void)' のコンパイル中
+                 with
+                 [
+                     _CharT=char
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(258): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(266): warning C4244: '引数' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(267): warning C4244: '引数' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(296): warning C4267: '初期化中' : 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+                 C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(294): クラス テンプレート のメンバー関数 'std::streamsize coil::log_streambuf<_CharT>::stream_sputn(const char *,std::streamsize)' のコンパイル中
+                 with
+                 [
+                     _CharT=char
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(346): warning C4244: '初期化中' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+                 C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(323): クラス テンプレート のメンバー関数 'int coil::log_streambuf<_CharT>::overflow(int)' のコンパイル中
+                 with
+                 [
+                     _CharT=char
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(353): warning C4244: '引数' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(354): warning C4244: '引数' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(398): warning C4244: '=' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+                 C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(390): クラス テンプレート のメンバー関数 'int coil::log_streambuf<_CharT>::sync(void)' のコンパイル中
+                 with
+                 [
+                     _CharT=char
+                 ]
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(408): warning C4244: '引数' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+     1>C:/Program Files/OpenRTM-aist/1.1\coil/Logger.h(409): warning C4244: '引数' : '__int64' から 'int' への変換です。データが失われる可能性があります。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\daiki\workspace\CameraComp\build\src\Release\CameraCompComp.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/bin" /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/bin/Release" /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/omniORB/4.1.6/lib/x86_win32" /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/omniORB/4.1.6/lib/x86_win32/Release" libconvert100.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib RTC110.lib coil110.lib omniORB416_rt.lib omniDynamic416_rt.lib omnithread34_rt.lib advapi32.lib ws2_32.lib mswsock.lib C:\opencv\build\x64\vc10\lib\opencv_calib3d245.lib C:\opencv\build\x64\vc10\lib\opencv_contrib245.lib C:\opencv\build\x64\vc10\lib\opencv_core245.lib C:\opencv\build\x64\vc10\lib\opencv_features2d245.lib C:\opencv\build\x64\vc10\lib\opencv_flann245.lib C:\opencv\build\x64\vc10\lib\opencv_gpu245.lib C:\opencv\build\x64\vc10\lib\opencv_highgui245.lib C:\opencv\build\x64\vc10\lib\opencv_imgproc245.lib C:\opencv\build\x64\vc10\lib\opencv_legacy245.lib C:\opencv\build\x64\vc10\lib\opencv_ml245.lib C:\opencv\build\x64\vc10\lib\opencv_nonfree245.lib C:\opencv\build\x64\vc10\lib\opencv_objdetect245.lib C:\opencv\build\x64\vc10\lib\opencv_photo245.lib C:\opencv\build\x64\vc10\lib\opencv_stitching245.lib C:\opencv\build\x64\vc10\lib\opencv_superres245.lib C:\opencv\build\x64\vc10\lib\opencv_ts245.lib C:\opencv\build\x64\vc10\lib\opencv_video245.lib C:\opencv\build\x64\vc10\lib\opencv_videostab245.lib /MANIFEST /ManifestFile:"CameraCompComp.dir\Release\CameraCompComp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraCompComp.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraCompComp.lib" /MACHINE:X64 CameraCompComp.dir\Release\CameraCompComp.obj
+         CameraCompComp.dir\Release\CameraComp.obj  /machine:x64 
+            ライブラリ C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraCompComp.lib とオブジェクト C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraCompComp.exp を作成中
+         CameraCompComp.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\src\Release\CameraCompComp.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\daiki\workspace\CameraComp\build\src\Release\CameraCompComp.exe;#1" /manifest CameraCompComp.dir\Release\CameraCompComp.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "CameraCompComp.dir\Release\CameraCompComp.unsuccessfulbuild" を削除しています。
+         "CameraCompComp.dir\Release\CameraCompComp.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\daiki\workspace\CameraComp\build\src\CameraCompComp.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:05.46

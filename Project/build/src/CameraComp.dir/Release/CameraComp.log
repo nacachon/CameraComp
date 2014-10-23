@@ -1,0 +1,22 @@
+﻿2013/12/29 20:36:50 にビルドを開始しました。
+     1>ノード 3 上のプロジェクト "C:\Users\daiki\workspace\CameraComp\build\src\CameraComp.vcxproj" (build ターゲット)。
+     1>InitializeBuildStatus:
+         "CameraComp.dir\Release\CameraComp.unsuccessfulbuild" のタッチ タスクを実行しています。
+       CustomBuild:
+         すべての出力が最新のものです。
+       ClCompile:
+         すべての出力が最新のものです。
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\daiki\workspace\CameraComp\build\src\Release\CameraComp.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/bin" /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/bin/Release" /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/omniORB/4.1.6/lib/x86_win32" /LIBPATH:"C:/Program Files/OpenRTM-aist/1.1/omniORB/4.1.6/lib/x86_win32/Release" libconvert100.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib RTC110.lib coil110.lib omniORB416_rt.lib omniDynamic416_rt.lib omnithread34_rt.lib advapi32.lib ws2_32.lib mswsock.lib C:\opencv\build\x64\vc10\lib\opencv_calib3d245.lib C:\opencv\build\x64\vc10\lib\opencv_contrib245.lib C:\opencv\build\x64\vc10\lib\opencv_core245.lib C:\opencv\build\x64\vc10\lib\opencv_features2d245.lib C:\opencv\build\x64\vc10\lib\opencv_flann245.lib C:\opencv\build\x64\vc10\lib\opencv_gpu245.lib C:\opencv\build\x64\vc10\lib\opencv_highgui245.lib C:\opencv\build\x64\vc10\lib\opencv_imgproc245.lib C:\opencv\build\x64\vc10\lib\opencv_legacy245.lib C:\opencv\build\x64\vc10\lib\opencv_ml245.lib C:\opencv\build\x64\vc10\lib\opencv_nonfree245.lib C:\opencv\build\x64\vc10\lib\opencv_objdetect245.lib C:\opencv\build\x64\vc10\lib\opencv_photo245.lib C:\opencv\build\x64\vc10\lib\opencv_stitching245.lib C:\opencv\build\x64\vc10\lib\opencv_superres245.lib C:\opencv\build\x64\vc10\lib\opencv_ts245.lib C:\opencv\build\x64\vc10\lib\opencv_video245.lib C:\opencv\build\x64\vc10\lib\opencv_videostab245.lib /MANIFEST /ManifestFile:"CameraComp.dir\Release\CameraComp.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraComp.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraComp.lib" /MACHINE:X64 /DLL CameraComp.dir\Release\CameraComp.obj  /machine:x64 
+            ライブラリ C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraComp.lib とオブジェクト C:/Users/daiki/workspace/CameraComp/build/src/Release/CameraComp.exp を作成中
+         CameraComp.vcxproj -> C:\Users\daiki\workspace\CameraComp\build\src\Release\CameraComp.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\daiki\workspace\CameraComp\build\src\Release\CameraComp.dll;#2" /manifest CameraComp.dir\Release\CameraComp.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         ファイル "CameraComp.dir\Release\CameraComp.unsuccessfulbuild" を削除しています。
+         "CameraComp.dir\Release\CameraComp.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\daiki\workspace\CameraComp\build\src\CameraComp.vcxproj" (build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.31
