@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/daiki/workspace/CameraComp/src/CMakeLists.txt
+C:/opencv/build/OpenCVConfig-version.cmake
+C:/opencv/build/OpenCVConfig.cmake
+C:/opencv/build/x64/vc10/lib/OpenCVConfig.cmake
